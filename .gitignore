@@ -1,0 +1,16 @@
+# data, intermediate features and results are never committed
+dataset/
+data/
+features*/
+results*/
+Elliptic2/
+*.npz
+*.parquet
+*.csv
+*.pkl
+*.pt
+*.log
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.kaggle/

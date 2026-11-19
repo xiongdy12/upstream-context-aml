@@ -1,0 +1,14 @@
+# tested with Python 3.12, CUDA GPU (NVIDIA B200), Linux
+polars>=1.0
+pyarrow
+pandas
+numpy>=1.25,<2.3
+scipy
+scikit-learn
+xgboost>=2.0
+lightgbm
+torch>=2.2
+matplotlib
+tabulate
+kaggle>=1.8
+# optional (AMLworld GFP baseline only; wheels for Python 3.9-3.12): snapml
